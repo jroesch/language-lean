@@ -1,14 +1,14 @@
 {
   "name": "language-lean",
   "main": "./lib/language-lean",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "JavaScript language support in Atom",
   "keywords": [
   ],
   "activationCommands": {
     "atom-workspace": "language-lean:toggle"
   },
-  "repository": "https://github.com/atom/language-lean",
+  "repository": "https://github.com/jroesch/language-lean",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
