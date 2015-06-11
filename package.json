@@ -2,7 +2,7 @@
   "name": "language-lean",
   "main": "./lib/language-lean",
   "version": "0.2.0",
-  "description": "JavaScript language support in Atom",
+  "description": "Atom langauge support for Lean",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "language-lean:toggle"
