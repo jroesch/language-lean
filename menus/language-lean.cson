@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle language-lean'
+      'command': 'language-lean:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'language-lean'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'language-lean:toggle'
+        }
+      ]
+    ]
+  }
+]
