@@ -1,5 +1,12 @@
-# language-lean package
+# Lean
 
-A short description of your package.
+Language support for the [Lean](http://leanprover.github.io/) programming language.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Currently we only support basic syntax highlighting but hope to reach feature
+parity with the Emacs mode, as well as eventually add debugger and profiling
+support to the editor mode.
+
+Feature List
+- Latex symbol input
+- Flycheck style errors
+- TODO fill in

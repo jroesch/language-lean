@@ -1,6 +1,5 @@
 fileTypes: [
   "lean"
-  "hlean"
 ]
 name: "Lean"
 patterns: [
@@ -20,7 +19,9 @@ patterns: [
     patterns: []
   }
   {
-    begin: "\\b(inductive|structure|record|theorem|proposition|axiom|axioms|lemma|hypothesis|definition|constant)\\b[ \\t\\n\\r({\\[]+([^ \\t\\n\\r{(\\[]*)"
+    begin: "\\b(inductive|structure|record|theorem|proposition|axiom|
+                axioms|lemma|hypothesis|definition|def|constant|meta|
+                |noncomputable)\\b[ \\t\\n\\r({\\[]+([^ \\t\\n\\r{(\\[]*)"
     beginCaptures:
       "1":
         name: "keyword.other.lean"
