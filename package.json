@@ -15,22 +15,21 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "consumedServices": {
-      "linter-indie": {
-          "versions": {
-              "1.0.0": "consumeLinter"
-          }
-      }
-  },
   "providedServices": {
       "autocomplete.provider": {
           "versions": {
               "2.0.0": "provide"
           }
+      },
+      "linter": {
+          "versions": {
+              "1.0.0": "provideLinter"
+          }
       }
   },
   "dependencies": {
-      "atom-package-deps": "4.3.1"
+      "atom-package-deps": "4.3.1",
+      "carrier" : "0.3.0"
   },
   "devDependencies": {
       "babel-core": "5.8.38",
