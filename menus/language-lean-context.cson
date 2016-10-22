@@ -1,0 +1,7 @@
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Show Goal'
+      'command': 'language-lean:show-goal'
+    }
+]
