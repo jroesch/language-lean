@@ -2,11 +2,10 @@
 
 Language support for the [Lean](http://leanprover.github.io/) programming language.
 
-Currently we only support basic syntax highlighting but hope to reach feature
-parity with the Emacs mode, as well as eventually add debugger and profiling
-support to the editor mode.
+This is a work in progress, and currently only supports Lean 0.3.0 (known as Lean3).
+The official release of this mode will coincide with the official of Lean 0.3.0.
 
-Feature List
-- Latex symbol input
-- Flycheck style errors
-- TODO fill in
+If you are interested in contributing please check out the open issues, or submit
+a pull request.
+
+![Lean Screenshot](https://github.com/jroesch/language-lean/blob/master/jroesch/lean-mode5.gif?raw=true)
