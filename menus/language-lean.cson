@@ -1,0 +1,14 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Lean'
+      'submenu': [
+        {
+          'label': 'Show Goal'
+          'command': 'language-lean:show-goal'
+        }
+      ]
+    ]
+  }
+]
